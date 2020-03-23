@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		57DB7E71242893C50033909A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E70242893C50033909A /* AppDelegate.swift */; };
 		57DB7E73242893C50033909A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E72242893C50033909A /* SceneDelegate.swift */; };
-		57DB7E75242893C50033909A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E74242893C50033909A /* ViewController.swift */; };
 		57DB7E78242893C50033909A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DB7E76242893C50033909A /* Main.storyboard */; };
 		57DB7E7A242893C90033909A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DB7E79242893C90033909A /* Assets.xcassets */; };
 		57DB7E7D242893C90033909A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DB7E7B242893C90033909A /* LaunchScreen.storyboard */; };
 		57DB7E88242893C90033909A /* AppleIdLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E87242893C90033909A /* AppleIdLoginTests.swift */; };
+		57DB7EA1242897300033909A /* UserLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E9B242897300033909A /* UserLoginPresenter.swift */; };
+		57DB7EA3242897300033909A /* UserLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E9D242897300033909A /* UserLoginRouter.swift */; };
+		57DB7EA4242897300033909A /* UserLoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E9E242897300033909A /* UserLoginModels.swift */; };
+		57DB7EA5242897300033909A /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7E9F242897300033909A /* UserLoginViewController.swift */; };
+		57DB7EA6242897300033909A /* UserLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7EA0242897300033909A /* UserLoginInteractor.swift */; };
+		57DB7EAE242897790033909A /* UserDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7EA8242897790033909A /* UserDetailPresenter.swift */; };
+		57DB7EB0242897790033909A /* UserDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7EAA242897790033909A /* UserDetailRouter.swift */; };
+		57DB7EB1242897790033909A /* UserDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7EAB242897790033909A /* UserDetailModels.swift */; };
+		57DB7EB2242897790033909A /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7EAC242897790033909A /* UserDetailViewController.swift */; };
+		57DB7EB3242897790033909A /* UserDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DB7EAD242897790033909A /* UserDetailInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57DB7E6D242893C50033909A /* AppleIdLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleIdLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DB7E6D242893C50033909A /* Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DB7E70242893C50033909A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57DB7E72242893C50033909A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57DB7E74242893C50033909A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57DB7E77242893C50033909A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57DB7E79242893C90033909A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57DB7E7C242893C90033909A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +46,17 @@
 		57DB7E83242893C90033909A /* AppleIdLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleIdLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DB7E87242893C90033909A /* AppleIdLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIdLoginTests.swift; sourceTree = "<group>"; };
 		57DB7E89242893C90033909A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DB7E9B242897300033909A /* UserLoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginPresenter.swift; sourceTree = "<group>"; };
+		57DB7E9D242897300033909A /* UserLoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginRouter.swift; sourceTree = "<group>"; };
+		57DB7E9E242897300033909A /* UserLoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginModels.swift; sourceTree = "<group>"; };
+		57DB7E9F242897300033909A /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		57DB7EA0242897300033909A /* UserLoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginInteractor.swift; sourceTree = "<group>"; };
+		57DB7EA8242897790033909A /* UserDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailPresenter.swift; sourceTree = "<group>"; };
+		57DB7EAA242897790033909A /* UserDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailRouter.swift; sourceTree = "<group>"; };
+		57DB7EAB242897790033909A /* UserDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModels.swift; sourceTree = "<group>"; };
+		57DB7EAC242897790033909A /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		57DB7EAD242897790033909A /* UserDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailInteractor.swift; sourceTree = "<group>"; };
+		57DB7EB7242899900033909A /* AppleIdLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleIdLogin.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +89,7 @@
 		57DB7E6E242893C50033909A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57DB7E6D242893C50033909A /* AppleIdLogin.app */,
+				57DB7E6D242893C50033909A /* Test App.app */,
 				57DB7E83242893C90033909A /* AppleIdLoginTests.xctest */,
 			);
 			name = Products;
@@ -79,13 +98,12 @@
 		57DB7E6F242893C50033909A /* AppleIdLogin */ = {
 			isa = PBXGroup;
 			children = (
-				57DB7E70242893C50033909A /* AppDelegate.swift */,
-				57DB7E72242893C50033909A /* SceneDelegate.swift */,
-				57DB7E74242893C50033909A /* ViewController.swift */,
-				57DB7E76242893C50033909A /* Main.storyboard */,
-				57DB7E79242893C90033909A /* Assets.xcassets */,
-				57DB7E7B242893C90033909A /* LaunchScreen.storyboard */,
-				57DB7E7E242893C90033909A /* Info.plist */,
+				57DB7EB7242899900033909A /* AppleIdLogin.entitlements */,
+				57DB7E99242896760033909A /* Scenes */,
+				57DB7EB4242898130033909A /* Storyboards */,
+				57DB7E98242895ED0033909A /* Shared */,
+				57DB7EB6242898350033909A /* Resources */,
+				57DB7EB5242898240033909A /* Config */,
 			);
 			path = AppleIdLogin;
 			sourceTree = "<group>";
@@ -97,6 +115,73 @@
 				57DB7E89242893C90033909A /* Info.plist */,
 			);
 			path = AppleIdLoginTests;
+			sourceTree = "<group>";
+		};
+		57DB7E98242895ED0033909A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				57DB7E70242893C50033909A /* AppDelegate.swift */,
+				57DB7E72242893C50033909A /* SceneDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		57DB7E99242896760033909A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				57DB7EA7242897520033909A /* UserDetail */,
+				57DB7E9A242896E10033909A /* UserLogin */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		57DB7E9A242896E10033909A /* UserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				57DB7E9B242897300033909A /* UserLoginPresenter.swift */,
+				57DB7E9D242897300033909A /* UserLoginRouter.swift */,
+				57DB7E9E242897300033909A /* UserLoginModels.swift */,
+				57DB7E9F242897300033909A /* UserLoginViewController.swift */,
+				57DB7EA0242897300033909A /* UserLoginInteractor.swift */,
+			);
+			path = UserLogin;
+			sourceTree = "<group>";
+		};
+		57DB7EA7242897520033909A /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				57DB7EA8242897790033909A /* UserDetailPresenter.swift */,
+				57DB7EAA242897790033909A /* UserDetailRouter.swift */,
+				57DB7EAB242897790033909A /* UserDetailModels.swift */,
+				57DB7EAC242897790033909A /* UserDetailViewController.swift */,
+				57DB7EAD242897790033909A /* UserDetailInteractor.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		57DB7EB4242898130033909A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				57DB7E76242893C50033909A /* Main.storyboard */,
+				57DB7E7B242893C90033909A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		57DB7EB5242898240033909A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				57DB7E7E242893C90033909A /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		57DB7EB6242898350033909A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57DB7E79242893C90033909A /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +201,7 @@
 			);
 			name = AppleIdLogin;
 			productName = AppleIdLogin;
-			productReference = 57DB7E6D242893C50033909A /* AppleIdLogin.app */;
+			productReference = 57DB7E6D242893C50033909A /* Test App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		57DB7E82242893C90033909A /* AppleIdLoginTests */ = {
@@ -200,9 +285,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57DB7E75242893C50033909A /* ViewController.swift in Sources */,
+				57DB7EB2242897790033909A /* UserDetailViewController.swift in Sources */,
+				57DB7EAE242897790033909A /* UserDetailPresenter.swift in Sources */,
 				57DB7E71242893C50033909A /* AppDelegate.swift in Sources */,
+				57DB7EB0242897790033909A /* UserDetailRouter.swift in Sources */,
+				57DB7EA3242897300033909A /* UserLoginRouter.swift in Sources */,
 				57DB7E73242893C50033909A /* SceneDelegate.swift in Sources */,
+				57DB7EA1242897300033909A /* UserLoginPresenter.swift in Sources */,
+				57DB7EB3242897790033909A /* UserDetailInteractor.swift in Sources */,
+				57DB7EA4242897300033909A /* UserLoginModels.swift in Sources */,
+				57DB7EA6242897300033909A /* UserLoginInteractor.swift in Sources */,
+				57DB7EA5242897300033909A /* UserLoginViewController.swift in Sources */,
+				57DB7EB1242897790033909A /* UserDetailModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,17 +456,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleIdLogin/AppleIdLogin.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T52625HQ2L;
-				INFOPLIST_FILE = AppleIdLogin/Info.plist;
+				DEVELOPMENT_TEAM = MV76X88Q4Q;
+				INFOPLIST_FILE = AppleIdLogin/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CreativeSoftware.AppleIdLogin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ft.AppleIdLogin;
+				PRODUCT_NAME = "Test App";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -380,17 +477,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleIdLogin/AppleIdLogin.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T52625HQ2L;
-				INFOPLIST_FILE = AppleIdLogin/Info.plist;
+				DEVELOPMENT_TEAM = MV76X88Q4Q;
+				INFOPLIST_FILE = AppleIdLogin/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CreativeSoftware.AppleIdLogin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ft.AppleIdLogin;
+				PRODUCT_NAME = "Test App";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -401,7 +501,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T52625HQ2L;
-				INFOPLIST_FILE = AppleIdLoginTests/Info.plist;
+				INFOPLIST_FILE = AppleIdLoginTests/Config/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,7 +523,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T52625HQ2L;
-				INFOPLIST_FILE = AppleIdLoginTests/Info.plist;
+				INFOPLIST_FILE = AppleIdLoginTests/Config/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

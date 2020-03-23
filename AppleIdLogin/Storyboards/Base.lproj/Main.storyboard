@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="UserLoginViewController" customModule="AppleIdLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="121"/>
+        </scene>
+        <!--User Detail View Controller-->
+        <scene sceneID="bdz-Q8-HGp">
+            <objects>
+                <viewController storyboardIdentifier="UserDetailViewController" id="elY-TD-nER" customClass="UserDetailViewController" customModule="AppleIdLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lHe-u7-ofI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="aPz-sY-RJ9">
+                                <rect key="frame" x="20" y="141.5" width="374" height="161"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Id" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCY-zL-lS3">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kN2-6M-8bA">
+                                        <rect key="frame" x="0.0" y="44.5" width="107.5" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIH-ON-fqi">
+                                        <rect key="frame" x="0.0" y="89" width="107" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8e-04-AvA">
+                                        <rect key="frame" x="0.0" y="133.5" width="54" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Detail View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIe-WS-s5P">
+                                <rect key="frame" x="100" y="58" width="214" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pIe-WS-s5P" firstAttribute="top" secondItem="uAd-GZ-WTc" secondAttribute="top" constant="14" id="KNX-ho-kd0"/>
+                            <constraint firstItem="pIe-WS-s5P" firstAttribute="centerX" secondItem="lHe-u7-ofI" secondAttribute="centerX" id="KnR-67-8u8"/>
+                            <constraint firstItem="aPz-sY-RJ9" firstAttribute="top" secondItem="pIe-WS-s5P" secondAttribute="bottom" constant="50" id="nzA-30-8HP"/>
+                            <constraint firstItem="uAd-GZ-WTc" firstAttribute="trailing" secondItem="aPz-sY-RJ9" secondAttribute="trailing" constant="20" id="oQ0-Iw-Kv1"/>
+                            <constraint firstItem="aPz-sY-RJ9" firstAttribute="leading" secondItem="uAd-GZ-WTc" secondAttribute="leading" constant="20" id="qaY-bX-fQa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uAd-GZ-WTc"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstNameLabel" destination="kN2-6M-8bA" id="9UZ-Ke-yPh"/>
+                        <outlet property="lastNameLabel" destination="sIH-ON-fqi" id="cwk-Fo-56c"/>
+                        <outlet property="userEmailLabel" destination="A8e-04-AvA" id="kBh-Ye-qrO"/>
+                        <outlet property="userIdLabel" destination="KCY-zL-lS3" id="Jg7-He-M2C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NIZ-ee-4uK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026" y="121"/>
+        </scene>
+    </scenes>
+</document>
